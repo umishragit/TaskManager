@@ -8,17 +8,6 @@ import com.umishra.TaskManager.entity.Month;
 
 @SpringBootTest
 class TaskManagerApplicationTests {
-
-	@Test
-	void CheckEnum() {
-		
-		Month[] mon = Month.values();
-		
-		for(Month m : mon) {
-			System.out.println(m);
-		}
-		
-	}
 	
 	
 
