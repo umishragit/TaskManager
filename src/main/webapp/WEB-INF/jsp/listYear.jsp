@@ -1,0 +1,22 @@
+<%@include file="jspf/header.jspf" %>
+<%@include file="jspf/navbar.jspf" %>
+<div class="container">
+	<h1>${name} Task's</h1>
+	<table class="table">
+		<thead class="thead">
+			<tr>
+			<th>Year</th>
+			</tr>
+		</thead>
+		<tbody class="tbody">
+			<c:forEach var="year" items="${years}">
+		   		 <tr>
+		   		 	<td>
+		   		 	 <a type="button" class="btn btn-info" href="/listMonth?year=${year}">${year}</a>
+		   		 	<td>
+		   		</tr>
+		    </c:forEach>  
+		</tbody>
+	</table>
+</div>
+<%@include file="jspf/footer.jspf" %>

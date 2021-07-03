@@ -1,0 +1,68 @@
+h1{
+	text-align: center;
+}
+
+body{
+	
+	background-color:#FFFAF0;
+}
+
+.cen{
+	text-align:center;
+}
+
+.error{
+	color:red;
+}
+
+#footer{
+	text-align: center;
+	color:#FFFAF0;
+	position: fixed;
+   	left: 0;
+   	bottom: 0;
+   	width: 100%;
+}
+
+.mar {
+    margin-top: 12%;
+}
+
+.quote{
+	text-align:center;
+	margin-top:2rem;
+	margin-bottom:2rem;
+}
+
+.login{
+	padding-right:.5rem;
+}
+
+.logout{
+    padding-right:.5rem;
+}
+
+.register{
+    padding-right:.5rem;
+}
+
+.myForm {
+  min-width: 500px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2.5rem
+}
+@media (max-width: 500px) {
+  .myForm {
+    min-width: 90%;
+  }
+}
+
+
+
+
+
+
